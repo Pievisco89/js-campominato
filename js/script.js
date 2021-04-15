@@ -1,5 +1,6 @@
 /* metto il prompt e le condizioni iniziali per decidere il livello di difficoltà*/
 var scegliLivello = prompt("Scegli livello: 0, 1, 2");
+
 /* condizione livello difficoltà */
 switch(scegliLivello){
   case "0":
@@ -21,7 +22,6 @@ var arrNumeriUtente = [];
 var tentativi = limit - numeriBombe;
 
 console.log(arrNumeriComputer);
-
 
 
 /* variabile flag */
@@ -64,6 +64,7 @@ while(fine_gioco === false){
     }
   }
 }
+
 
 
 /* funzione per pushare in arrNumeriComputer i numeri random */
