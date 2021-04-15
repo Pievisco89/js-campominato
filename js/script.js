@@ -56,7 +56,7 @@ while(fine_gioco === false){
 
     arrNumeriUtente.push(numeroUtente);
     /* condizione per la vittoria finale */
-    if(tentativi === arrNumeriUtente.lenght){ 
+    if(tentativi === arrNumeriUtente.length){ 
       
       alert("Complimenti! Hai vinto!"); 
       fine_gioco = true;
